@@ -64,5 +64,118 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-handlediq-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://handlediq.com/
+HandledIQ provides field service management software for home service contractors, offering scheduling, dispatch, estimates, invoicing, payments, payroll, and an AI assistant named Hoss. The platform runs the office, integrates with QuickBooks, Stripe, and other tools, and gives shop owners full data ownership. Shops can book appointments, manage technicians, and automate communications, while developers can access a documented OpenAPI specification for integration.
+
+**Areas:** Field Service · SaaS · Home Services · Scheduling · Payments · AI
+
+## handlediq-com on APIs.io
+
+Everything profiled for handlediq-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/handlediq-com/](https://apis.io/providers/handlediq-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [HandledIQ API](https://apis.io/apis/handlediq-com/handlediq-api/) — API for HandledIQ field service management platform.
+- [handlediq-com Booking Status API](https://apis.io/apis/handlediq-com/handlediq-com-booking-status-api/) — The Booking Status API from handlediq-com — 1 operation(s) for booking status.
+- [handlediq-com Cancel Booking API](https://apis.io/apis/handlediq-com/handlediq-com-cancel-booking-api/) — The Cancel Booking API from handlediq-com — 1 operation(s) for cancel booking.
+- [handlediq-com Find Help API](https://apis.io/apis/handlediq-com/handlediq-com-find-help-api/) — The Find Help API from handlediq-com — 1 operation(s) for find help.
+- [handlediq-com Get Quote API](https://apis.io/apis/handlediq-com/handlediq-com-get-quote-api/) — The Get Quote API from handlediq-com — 1 operation(s) for get quote.
+- [handlediq-com Hold Time API](https://apis.io/apis/handlediq-com/handlediq-com-hold-time-api/) — The Hold Time API from handlediq-com — 1 operation(s) for hold time.
+- [handlediq-com Move Booking API](https://apis.io/apis/handlediq-com/handlediq-com-move-booking-api/) — The Move Booking API from handlediq-com — 1 operation(s) for move booking.
+- [handlediq-com Request Service API](https://apis.io/apis/handlediq-com/handlediq-com-request-service-api/) — The Request Service API from handlediq-com — 1 operation(s) for request service.
+- [handlediq-com Verify Record API](https://apis.io/apis/handlediq-com/handlediq-com-verify-record-api/) — The Verify Record API from handlediq-com — 1 operation(s) for verify record.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Handlediq Com Agentic Access](https://apis.io/agentic-access/handlediq-com/handlediq-com-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Handlediq Com Context](https://apis.io/jsonld/handlediq-com/handlediq-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [handlediq-com API Rules](https://apis.io/rules/handlediq-com/handlediq-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Handlediq Com Domain Security](https://apis.io/security/handlediq-com/handlediq-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://handlediq.com/)
+- [Getting started](https://handlediq.com/try.md)
+- [API reference](https://app.handlediq.com/agents/openapi.json)
+- [Pricing](https://handlediq.com/product.md)
+- [Support](https://handlediq.com/contact.md)
+- [Terms of service](https://app.handlediq.com/legal/terms.md)
+- [Privacy policy](https://app.handlediq.com/legal/privacy.md)
+- [Status](https://status.handlediq.com)
+
+## API Evangelist rating
+
+**Kin Score 44.3** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 45.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 39.8 |
+| Access clarity | 31.6 |
+
+**Agent readiness 50.2** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 20.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/handlediq-com/](https://apis.io/providers/handlediq-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for handlediq-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/handlediq-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
